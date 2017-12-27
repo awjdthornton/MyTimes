@@ -1,16 +1,40 @@
 header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
-  align-items: center;
+
+  border-bottom: 1px black solid;
+  padding: 5px;
+
+  background-color: white;
+  width: 100%;
   }
 
-#sitename {
-    color: MediumAquamarine;
-    margin-left: 10px;
+#logo {
+  display: inline-flex;
+  align-items: center;
+  color: MediumAquamarine;
+  padding-left: 30px;
+}
+
+#logo span {
+  margin-left: 10px;
   }
 
 nav {
-  
+  padding-right: 40px;
+}
+
+nav span {
+  padding: 20px 10px;
+}
+
+nav a {
+  color: black;
 }
