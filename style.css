@@ -1,3 +1,5 @@
+/*Header Section*/
+
 header {
   position: fixed;
   display: flex;
@@ -11,6 +13,7 @@ header {
   padding: 5px;
   background-color: white;
   width: 100%;
+  top: 0px;
 }
 
 .logo {
@@ -24,7 +27,7 @@ header {
   margin-left: 10px;
 }
 
-nav {
+header nav {
   padding-right: 40px;
 }
 
@@ -34,4 +37,130 @@ nav span {
 
 nav a {
   color: black;
+}
+
+/* Main Section */
+
+.content {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.content div {
+  /* border: 1px black solid; */
+}
+
+.content p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.column {
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.substories {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subs {
+  width: 300px;
+}
+
+.image {
+  height: 300px;
+  margin-top: 15px;
+  text-align: center;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display:flex;
+  align-items: center;
+
+}
+
+
+.leadstory .caption {
+  background-image: url("Assets/img-cocktail-party.png");
+  text-align: left;
+  font-size: 40px;
+}
+
+.earth {
+  background-image: url("Assets/img-fall.png");
+}
+
+.cameras {
+  background-image: url("Assets/img-hipster-photographer.png");
+}
+
+.cats .caption {
+  background-image: url("Assets/img-cat.png");
+}
+
+.newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite span {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px black solid;
+  padding: 11px 20px;
+}
+
+footer {
+  height: 325px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+
+.info .title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px white solid;
+}
+
+.info nav {
+  display:inline-block;
+  padding-left: 25px;
+  margin-bottom: 25px;
+}
+
+.copyright {
+  display:block;
 }
